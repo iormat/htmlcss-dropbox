@@ -7,9 +7,124 @@
 
 body {
     font-family: 'Open Sans', 'Roboto', sans-serif;
+    font-size: 20px;
+    /* debug */
+    /* background-color: tomato;
+    height: 400vh; */
 }
 
-/* debug */
-body {
-    background-color: blue;
+.btn {
+    padding: 5px 20px;
+    font-weight: 600;
+    border: none;
+    background-color: #0455FF;
+    color: #fff;
 }
+
+.up.center {
+    width: 80%;
+    margin: auto;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* header */
+header {
+    height :100px;
+    line-height: 100px;
+    width: 100%;
+}
+
+
+/* header nav */
+.header-fix {
+    position: fixed;
+    z-index: 999;  
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #fff;
+}
+
+.top.left {
+    float: left;
+}
+
+.top.left img {
+    width: 170px;
+    vertical-align: middle;
+}
+
+ul li, a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.top a {
+    color: #000;
+    font-weight: 600;
+    font-size: 0.8em;
+    margin: 0 25px 0 15px;
+}
+
+.top.right {
+    float: right;
+}
+
+/* jumbotron */
+#jumbotron {
+    padding-top: 150px;
+    line-height: normal;
+    background-color: #B5D0E7;
+    max-height: 730px;
+    width: 100%;
+}
+
+#title {
+    font-size: 3em;
+    font-weight: 700;
+    padding-bottom: 30px;
+}
+
+.sxaside {
+    float: left;
+    width: 30%;
+}
+
+.upper.sxaside p:first-of-type {
+    font-size: .9em;
+    font-weight: bolder;
+}
+
+
+.dxaside {
+    float: right;
+}
+
+.btn.jumbo {
+    padding: 10px 15px;
+    font-size: 1em;
+    margin: 20px 0 10px 0;
+}
+.upper.sxaside p:last-of-type {
+    font-size: 0.7em;
+}
+.fa-arrow-down {
+    margin-top: 30px;
+    font-size: 2em;
+    color: #000;
+}
+
+.upper.dxaside {
+    width: 70%;
+}
+
+.upper.dxaside img{
+    width: 100%;
+}
+
+
