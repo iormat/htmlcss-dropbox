@@ -90,7 +90,7 @@ body {
     padding-bottom: 30px;
 }
 
-.sxaside {
+#jumbotron .sxaside {
     float: left;
     width: 30%;
 }
@@ -99,7 +99,6 @@ body {
     font-size: .9em;
     font-weight: bolder;
 }
-
 
 .dxaside {
     float: right;
@@ -110,9 +109,11 @@ body {
     font-size: 1em;
     margin: 20px 0 10px 0;
 }
+
 .upper.sxaside p:last-of-type {
     font-size: 0.7em;
 }
+
 .fa-arrow-down {
     margin-top: 30px;
     font-size: 2em;
@@ -126,13 +127,11 @@ body {
 }
 
 /* main offer plans */
-
 .offers-title {
     width: 100%;
     padding: 175px 0 30px 0;
     font-size: 1.3em;
 }
-
 
 article.row {
     width: calc(100% / 3 - 27px);
@@ -146,7 +145,6 @@ article.middle.row {
 article .center {
     width: 100%;
 }
-
 
 .center-offer{
     width:90%;
@@ -169,8 +167,8 @@ article .center {
     border-bottom: 2px solid #DCDCDF;
     border-right: 2px solid #DCDCDF;
     border-left: 2px solid #DCDCDF;
-       /* debug */
     min-height: 900px;
+        /* debug */
     /* height: 400px; */
  }
  
@@ -252,3 +250,45 @@ article.enterprise {
     padding-top: 50px;
     width: 100%;
  }
+
+ .enterprise .clearfix {
+    padding-top: 40px;
+    border-bottom: 2px solid #DCDCDF;
+    border-right: 2px solid #DCDCDF;
+    border-left: 2px solid #DCDCDF;
+    padding: 50px 5%;
+    /* debug */
+    /* height: 300px; */
+ 
+ }
+
+ /* enterprise sxaside */
+ .enterprise .sxaside {
+     float: left;
+     width: 70%;
+ }
+
+ .sxaside h2 {
+     margin-bottom: 20px;;
+ }
+ .sxaside h4 {
+    margin-bottom: 30px;
+}
+
+.enterprise .dxaside {
+    width: 30%;
+    min-height: 118px
+}
+
+.clearfix .solutions {
+    font-size: 0.7em;
+    font-weight: 600;
+    padding-top: 50px;
+}
+
+.btn.btn-enterprise {
+    margin: 0;
+    padding: 10px 50px;
+}
+
+
