@@ -344,3 +344,62 @@ article.enterprise {
     font-size: 0.8em;
 }
 
+/* famous partners */
+.fam-partners h2{
+    padding: 100px 0 20px 0;
+    width: 50%;
+}
+
+.fam-partners span a {
+    text-decoration: underline;
+    font-size: 0.6em;
+    padding-bottom: 80px;
+}
+
+ .fam-partners aside {
+    width: 25%;
+}
+
+ .square {
+    width: 50%;
+    height: 175px;
+    padding: 20px;
+    float: left;
+    /* debug */
+    background-color: tomato;
+    /* line-height: 175px; */
+}
+
+ .square svg {
+     width: 100%;
+     fill: #fff;
+ }
+.fam-partners .middle.clearfix{
+    float: left;
+    width: 50%;
+}
+ .big-square {
+     overflow: scroll;
+     background-color: #F5F5F5;
+     padding: 50px;
+     /* debug */
+     height: 350px;
+ }
+
+ .big-square img {
+     width: 125px;
+     .bigheight: auto;
+     padding-bottom: 50px;
+ }
+
+ .big-square p {
+     font-size: .8em;
+ }
+
+ .big-square .quote-sign {
+    padding-top: 30px;
+    font-size: .6em;
+ }
+
+
+
