@@ -366,13 +366,15 @@ article.enterprise {
     padding: 20px;
     float: left;
     /* debug */
-    background-color: tomato;
+    /* background-color: tomato; */
     /* line-height: 175px; */
 }
 
  .square svg {
      width: 100%;
      fill: #fff;
+     display: block;
+     margin: 0 auto;
  }
 .fam-partners .middle.clearfix{
     float: left;
@@ -388,7 +390,7 @@ article.enterprise {
 
  .big-square img {
      width: 125px;
-     .bigheight: auto;
+     height: auto;
      padding-bottom: 50px;
  }
 
@@ -401,5 +403,57 @@ article.enterprise {
     font-size: .6em;
  }
 
+ /* square background colors */
+ .green {
+    background-color: #ACD2A0;
+ }
+ .burgundy {
+     background-color: #59132B;
+ }
+ .blue {
+     background-color: #4091C9;
+ }
+ .red {
+     background-color: #EB3B2F;
+ }
+ .dkred {
+     background-color: #C4292B;
+ }
+ .skyblue {
+     background-color: #B2C7DC;
+ }
+.royalblue {
+    background-color: #13237C;
+}
+.yellow {
+    background-color: #F9DA56;
+}
+
+/* banner dropbox */
+#banner {
+    background-color: #BACFE5;
+    width: 100%;
+    padding-top: 150px;
+}
+
+#banner.center {
+    width: 70%;
+}
+#banner .sxaside {
+    width: 50%;
+}
+#banner h2 {
+    font-size: 1.9em;
+    padding-bottom: 150px;
+}
 
 
+.btn.btn-banner {
+    background-color: #fff;
+    color: #000;
+    padding: 10px 70px;
+    font-size: 1em;
+    font-weight: 400;
+}
+
+/* faq section */
