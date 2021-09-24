@@ -153,7 +153,7 @@ article .center {
     margin: 0 auto;
 }
 
-.fas.fa {
+.far.fa {
     text-align: center;
     border: 2px solid #DCDCDF;
     width: 100%;
@@ -457,3 +457,24 @@ article.enterprise {
 }
 
 /* faq section */
+.faq ul {
+    padding: 100px 0;
+}
+
+.faq .asked {
+    display: block;
+    font-size: 1.6em;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+.faq li {
+    list-style: none;
+    line-height: 100px;
+    border-top: 1px solid #E5E5E6;
+    font-weight: bolder;
+}
+
+.faq li:last-child {
+    border-bottom: 1px solid #E5E5E6;
+}
