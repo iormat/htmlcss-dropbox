@@ -91,13 +91,15 @@ body {
 }
 
 #jumbotron .sxaside {
-    float: left;
     width: 30%;
 }
 
 .upper.sxaside p:first-of-type {
     font-size: .9em;
     font-weight: bolder;
+}
+.sxaside {
+    float: left;
 }
 
 .dxaside {
@@ -133,7 +135,7 @@ body {
     font-size: 1.3em;
 }
 
-article.row {
+article.row, .row article {
     width: calc(100% / 3 - 27px);
     float: left;
 }
@@ -259,19 +261,17 @@ article.enterprise {
     padding: 50px 5%;
     /* debug */
     /* height: 300px; */
- 
  }
 
- /* enterprise sxaside */
- .enterprise .sxaside {
-     float: left;
-     width: 70%;
- }
+/* enterprise sxaside */
+.enterprise .sxaside {
+    width: 70%;
+}
 
- .sxaside h2 {
-     margin-bottom: 20px;;
- }
- .sxaside h4 {
+.sxaside h2 {
+    margin-bottom: 20px;;
+}
+.sxaside h4 {
     margin-bottom: 30px;
 }
 
@@ -287,8 +287,60 @@ article.enterprise {
 }
 
 .btn.btn-enterprise {
-    margin: 0;
     padding: 10px 50px;
 }
 
+/*  section contact partners */
+.center.drop-cont {
+    padding: 100px 0;
+}
+
+.contact .sxaside{
+    width: 50%;
+}
+
+.contact .sxaside img {
+    width: 100%;
+}
+
+.contact .dxaside {
+    width: 50%;
+    padding: 30px 0 0 50px
+}
+
+.contact .dxaside h2 {
+    font-size: 1.4em;
+}
+
+.contact .dxaside p {
+    font-size: .9em;
+    padding: 20px 0 30px 0;
+}
+
+.contact .btn.btn-contact {
+    font-size: 1.1em;
+    font-weight: 400;
+    padding: 10px 40px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+}
+
+/* dropbox operations */
+.main-top article {
+    padding-bottom: 30px;
+}
+
+.center.drop-op h2{
+    padding-bottom: 50px;
+    font-size: 1.6em;
+}
+
+.row img{
+    width: 100%;
+}
+.row p {
+    padding-bottom: 30px;
+    font-size: 0.8em;
+}
 
