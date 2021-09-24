@@ -59,7 +59,7 @@ body {
     vertical-align: middle;
 }
 
-ul li, a {
+.top ul li, a {
     text-decoration: none;
     display: inline-block;
 }
@@ -133,13 +133,24 @@ ul li, a {
     font-size: 1.3em;
 }
 
-article {
-    width: calc(100% / 3);
+
+article.row {
+    width: calc(100% / 3 - 27px);
     float: left;
+}
+
+article.middle.row {
+    margin: 0 40px;
 }
 
 article .center {
     width: 100%;
+}
+
+
+.center-offer{
+    width:90%;
+    margin: 0 auto;
 }
 
 .fas.fa {
@@ -150,12 +161,94 @@ article .center {
     font-size: 1.2em;
 }
 
+.fa.fa span {
+    font-family: 'Roboto', 'Open Sans', sans-serif;
+}
+
 .single-offer {
-    border-bottom: 2px solid #DCDCDF;    ;
-    border-right: 2px solid #DCDCDF;    ;
-    border-left: 2px solid #DCDCDF;    ;
+    border-bottom: 2px solid #DCDCDF;
+    border-right: 2px solid #DCDCDF;
+    border-left: 2px solid #DCDCDF;
        /* debug */
-    height: 400px;
+    min-height: 900px;
+    /* height: 400px; */
+ }
+ 
+ .single-offer h4 {
+     font-size: 1.1em;font-weight: bolder;
  }
 
+ .single-offer h4, .single-offer h5 {
+     padding: 15px 0;
+ }
 
+ .single-offer li {
+     list-style: none;
+     font-size: 0.8em;
+     padding: 10px 0;
+ }
+
+ /* unicode offer list */
+ li.user:before{
+    content: '\f007';
+    font-family: 'Font Awesome\ 5 Free';
+ }
+ 
+ li.folder:before{
+    content: '\f07b';
+    font-family: 'Font Awesome\ 5 Free';
+ }
+ li.pencil:before{
+    content: '\f303';
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+ }
+
+ li.user.plus:before {
+    content: '\f234';
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+ }
+
+ /* button offer  */
+.priv-btn {
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.priv-btn .btn {
+    padding: 8px 30px;
+    margin: 30px 0 20px 0;
+ }
+
+ /* link buy now */
+.single-offer .buy-now {
+    font-size: 0.7em;
+}
+
+.buy-now span {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #DCDCDF;
+}
+
+ /* second part of single-offer */
+.center-offer.best h4{
+    padding-top: 100px;
+}
+
+.center-offer .check {
+    font-size: .7em;
+}
+
+.center-offer .check::before {
+    content: '\f00c';
+    color: #275DF2;
+    font-family: 'Font Awesome\ 5 Free';
+    font-weight: 900;
+ }
+
+/* enterprise offer */
+article.enterprise {
+    padding-top: 50px;
+    width: 100%;
+ }
