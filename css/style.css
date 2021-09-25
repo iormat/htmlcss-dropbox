@@ -116,7 +116,7 @@ body {
     font-size: 0.7em;
 }
 
-.fa-arrow-down {
+.fas.fa-arrow-down {
     margin-top: 30px;
     font-size: 2em;
     color: #000;
@@ -182,7 +182,7 @@ article .center {
      padding: 15px 0;
  }
 
- .single-offer li {
+li {
      list-style: none;
      font-size: 0.8em;
      padding: 10px 0;
@@ -477,4 +477,43 @@ article.enterprise {
 
 .faq li:last-child {
     border-bottom: 1px solid #E5E5E6;
+}
+
+/* footer */
+footer {
+    background-color: #000;
+    color: #fff;
+}
+
+.foot.up {
+    padding: 100px 0 70px 0;
+
+}
+
+.foot-list {
+    width : 20%;
+}
+
+.foot-list h4 {
+    font-size: 1.5em;
+}
+
+.foot-list li {
+    padding-bottom: 5px;
+}
+
+#region {
+    margin-left: 10%;
+    max-width: 10%;
+    color: #9A9999;
+    border-top: 1px solid #9A9999;
+
+}
+
+.fa-globe-americas {
+    padding: 50px 0;
+}
+
+#region span {
+    font-size: 0.6em;
 }
