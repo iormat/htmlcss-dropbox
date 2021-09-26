@@ -52,6 +52,7 @@ a {
 button.btn.btn-contact:hover {
     color: #fff;
     background-color: #000;
+    /* transition: .2s; */
 }
 button.btn.btn-banner:hover {
     background-color: #285FF6;
@@ -66,6 +67,10 @@ button.btn.btn-banner:hover {
 }
 #hover-li:hover #hide{
     display: block;
+}
+
+:hover {
+    transition: .4s;
 }
 
 /* header nav */
@@ -325,7 +330,6 @@ li.pencil:before{
     font-family: 'Font Awesome\ 5 Free';
     font-weight: 900;
  }
-
 
 /* enterprise offer */
 article.enterprise {
@@ -593,6 +597,12 @@ footer {
 .foot-list li {
     padding-bottom: 5px;
 }
+
+.foot-list a {
+    color: #fff;
+}
+
+/* foot down */
 
 #region {
     margin-left: 10%;
