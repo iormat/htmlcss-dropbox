@@ -42,6 +42,7 @@ body {
 
 .top a:hover {
     text-shadow: 4px 4px 4px #cecece;
+    border-bottom: 5px solid #285FF6ed;
 }
 
 button.btn.btn-contact:hover {
@@ -92,10 +93,6 @@ button.btn.btn-banner:hover {
 .top li, a {
     text-decoration: none;
     display: inline;
-}
-
- .top a:hover {
-    border-bottom: 5px solid #285FF6ed;
 }
 
 .top a {
@@ -175,14 +172,14 @@ button.btn.btn-banner:hover {
     margin: 30px 0;
 }
 
-.radio-btn, .radio-btn2 {
+.radio-btn {
     display: inline-flex;
     align-items: center;
     cursor: pointer;
     margin-right: 20px;
 }
 
-.radio-radio, .radio-radio2 {
+.radio-radio {
     display: none;
 }
 
@@ -462,7 +459,7 @@ article.enterprise {
 
 .square img {
     filter: invert(1);
-    width: 90%;
+    width: 70%;
     display: block;
     margin: auto;
 }
@@ -471,27 +468,36 @@ article.enterprise {
     float: left;
     width: 50%;
 }
- .carousel {
-     overflow: scroll;
-     background-color: #F5F5F5;
-     padding: 50px;
-     min-height: 360px;
- }
 
- .carousel img {
-     width: 125px;
-     height: auto;
-     padding-bottom: 50px;
- }
+.carousel {
+    width: 100%;
+    background-color: #F5F5F5;
+    padding-top: 50%;
+    position: relative;
+    overflow: scroll;
+}
 
- .carousel p {
-     font-size: .8em;
- }
+.carousel .carousel-content {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 90%;
+}
 
- .carousel .quote-sign {
+.carousel img {
+    width: 125px;
+    height: auto;
+    padding-bottom: 50px;
+}
+
+.carousel p {
+    font-size: .8em;
+}
+
+.carousel .quote-sign {
     padding-top: 30px;
     font-size: .6em;
- }
+}
 
  /* square background colors */
  .green {
@@ -534,7 +540,7 @@ article.enterprise {
     width: 50%;
 }
 #banner h2 {
-    font-size: 1.9em;
+    font-size: 2em;
     padding-bottom: 150px;
     color: #56122A;
 }
@@ -627,7 +633,3 @@ footer {
 #region span {
     font-size: 0.6em;
 }
-
-
-
-
