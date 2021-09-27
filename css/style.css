@@ -175,7 +175,6 @@ button.btn.btn-banner:hover {
     margin: 30px 0;
 }
 
-
 .radio-btn, .radio-btn2 {
     display: inline-flex;
     align-items: center;
@@ -429,6 +428,10 @@ article.enterprise {
 }
 
 /* famous partners */
+.fam-partners.title {
+    padding-bottom: 80px;
+}
+
 .fam-partners h2{
     padding: 100px 0 20px 0;
     width: 50%;
@@ -454,13 +457,11 @@ article.enterprise {
     /* line-height: 175px; */
 }
 
- .square svg {
-     width: 100%;
-     height: auto;
-     fill: #fff;
-     display: block;
-     margin: 0 auto;
- }
+.square img {
+    filter: invert(1);
+    width: 100%;
+}
+
 .fam-partners .middle.clearfix{
     float: left;
     width: 50%;
