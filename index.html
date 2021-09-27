@@ -16,6 +16,7 @@
 <body>
     <!-- intestazione -->
     <header>
+        <!-- parte header fissa -->
         <div class="clearfix header-fix">
             <nav class="top left">
                 <ul>
@@ -58,6 +59,7 @@
 
             </nav>
         </div>
+        <!-- jumbotron -->
         <div id="jumbotron">
             <div class="up center">
                 <h1 id="title"> Tutto ci&ograve; che ti serve per il lavoro, in un unico posto </h1>
@@ -87,8 +89,7 @@
             <div class="offers-title">
                 <h2> Trova il piano Dropbox Business che fa per te </h2>
             </div>
-            
-            <!-- qui andranno i "radio input" -->
+            <!-- qui ci sono i "radio input" -->
             <div class="myradio-button">
                 <label for="myradio-button" class="radio-btn" name="radios">
                     <input type="radio" id="myradio-button" class="radio-radio" name="radios">
@@ -102,10 +103,11 @@
                     Fatturazione annuale 
                 </label>
             </div>
-
+            <!-- qui ci sono le tre colonne -->
             <div class="clearfix">
-                <article class="row center">
-                    <div class="far fa">
+                <!-- col sx offerta -->
+                <article class="row">
+                    <div class="col-title">
                         <i class="far fa-user">
                             <span> Singolo </span>
                         </i>
@@ -146,10 +148,10 @@
                         </div>
                     </div>
                 </article>
-
+                <!-- col centrale offerta -->
                 <article class="middle row">
                     <div class="center">
-                        <div class="far fa">
+                        <div class="col-title">
                             <i class="far fa-building">
                                 <span> Team </span>
                             </i>
@@ -191,10 +193,10 @@
                         </div>
                     </div>
                 </article>
-
+                <!-- col dx offerta -->
                 <article class="row">
                     <div class="center">
-                        <div class="far fa">
+                        <div class="col-title">
                             <i class="far fa-building"> 
                                 <span> Team </span>
                             </i>
@@ -237,15 +239,15 @@
                     </div>
                 </article>
             </div>
-
             <!-- enterprise -->
             <article class="enterprise">
                 <div class="center">
-                    <div class="far fa">
+                    <div class="col-title">
                         <i class="far fa-building"> 
                             <span> Team </span>
                         </i>
                     </div>
+                    
                     <div class="clearfix">
                         <aside class="sxaside">
                             <h2> Enterprise </h2>
@@ -260,30 +262,28 @@
                 </div>
 
             </article>
-        
         </section>
 
         <!-- sezione contatto partner dropbox -->
-        <div class="center drop-cont">
-            <div class="clearfix">
-                <section class="contact">
-                    <aside class="sxaside">
-                        <img src="img/partner.png" alt="talking and smiling men">
-                    </aside>
-        
-                    <aside class="dxaside">
-                        <h2>Entra in contatto con un Partner Dropbox</h2>
-                        <p> Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui imprementeazione, integrazione, gestione e supporto continui.</p>
-                        <button class="btn btn-contact"> Trova un partner </button>
-                    </aside>
-                </section>
-            </div>    
+        <div class="center drop-cont clearfix">
+            <section class="contact">
+                <aside class="sxaside">
+                    <img src="img/partner.png" alt="talking and smiling men">
+                </aside>
+    
+                <aside class="dxaside">
+                    <h2>Entra in contatto con un Partner Dropbox</h2>
+                    <p> Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per raggiungere i tuoi obbiettivi aziendali, tra cui imprementeazione, integrazione, gestione e supporto continui.</p>
+                    <button class="btn btn-contact"> Trova un partner </button>
+                </aside>
+            </section>
         </div>    
         <!-- articoli operazioni dropbox -->
         <div class="center drop-op">
             <h2> Esegui pi&ugrave; operazioni con Dropbox Business </h2>
             <div class="clearfix">
-                <section class="main-top row">
+                <!-- qui inizia la prima row -->
+                <section class="row">
                     <article>
                         <img src="img/business-feature-switching-tools.png" alt="sendin files">
                         <h4> Passa di meno da uno strumento all&#39; altro </h4>
@@ -302,7 +302,8 @@
                         <p> Porta a termine le attivit&agrave; quotidiane con un solo strumento. Crea, modigfica e condividi contenuti cloud da Documenti, Fogli e Presentazioni Google, file Microsoft Office e <span>Dropbox Paper</span> direttamente da Dropbox.</p>
                     </article>
                 </section>
-                <section class="main-bottom row">
+                <!-- qui inizia la seconda row -->
+                <section class="row">
                     <article>
                         <img src="img/business-feature-integrations-it.png" alt="sendin files">
                         <h4> Passa di meno da uno strumento all&#39; altro </h4>
@@ -321,26 +322,24 @@
                         <p> Porta a termine le attivit&agrave; quotidiane con un solo strumento. Crea, modigfica e condividi contenuti cloud da Documenti, Fogli e Presentazioni Google, file Microsoft Office e <span>Dropbox Paper</span> direttamente da Dropbox.</p>
                     </article>
                 </section>
-
             </div>
         </div>
-
-        <!-- partner famosi -->
-        <div class="fam-partners clearfix">
+        <!-- clienti famosi -->
+        <div class="fam-clients clearfix">
             
             <div class="center">
-                <div class="fam-partners title">
+                <div class="fam-clients title">
                     <h2> Pi&ugrave; di 500.000 team utilizzano Dropbox Business </h2>
                     <span> <a href="#"> Scopri di pi&ugrave; sui nostri clienti </a></span>
                 </div>
             </div>
 
             <aside class="sxaside clearfix">
-                <div class="square green">
-                    <div>
-                        <img src="img/designit.svg" alt="">
+                    <div class="square green">
+                        <div>
+                            <img src="img/designit.svg" alt="">
+                        </div>
                     </div>
-                </div>
 
                 <div class="square burgundy">
                     <div>
@@ -397,7 +396,6 @@
                 </div>
             </aside>
         </div>
-
         <!-- banner porta dropbox nella tua azienda -->
         <div id="banner" class="clearfix">
             <div class="center">
@@ -407,12 +405,8 @@
                 <aside class="dxaside">
                     <button class="btn btn-banner"> Inizia la tua prova gratuita </button>
                 </aside>
-
-            </div>
-
-        
+            </div>        
         </div>
-
         <!-- FAQ -->
         <section class="faq center">
             <ul> 
@@ -448,7 +442,6 @@
 
         </section>
     </main>
-
     <!-- parte finale -->
     <footer>
         <!-- parte finale superiore "contatti, chi siamo, ..." -->
@@ -506,7 +499,6 @@
             </div>
         </div>
     </footer>
-
 </body>
 
 </html>

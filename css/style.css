@@ -49,9 +49,18 @@ button.btn.btn-contact:hover {
     color: #fff;
     background-color: #000;
 }
+
 button.btn.btn-banner:hover {
     background-color: #285FF6;
     color: #fff;
+}
+
+.square div:hover {
+    border: 10px solid #d7eed0;
+}
+
+.foot-list a:hover {
+    text-decoration: underline;
 }
 
 .hover-li:hover .fas.fa-angle-up {
@@ -70,7 +79,7 @@ button.btn.btn-banner:hover {
 
 /* header nav */
 .header-fix {
-    /* height: 100px; */
+    height: 100px;
     width: 100%;
     position: fixed;
     z-index: 999;  
@@ -100,7 +109,7 @@ button.btn.btn-banner:hover {
     font-weight: 600;
     margin: 0 25px 0 15px;
     border-bottom: 5px  solid transparent;
-    padding-bottom: 35px;
+    padding: 35px 0;
 }
 
 .top.right {
@@ -110,7 +119,6 @@ button.btn.btn-banner:hover {
 /* jumbotron */
 #jumbotron {
     padding-top: 150px;
-    line-height: normal;
     background-color: #B5D0E7;
     max-height: 730px;
     width: 100%;
@@ -226,7 +234,7 @@ article .center {
     margin: 0 auto;
 }
 
-.far.fa {
+.col-title {
     text-align: center;
     border: 2px solid #DCDCDF;
     width: 100%;
@@ -420,23 +428,24 @@ article.enterprise {
     font-size: 0.8em;
 }
 
-/* famous partners */
-.fam-partners.title {
+/* famous clients */
+.fam-clients.title {
     padding-bottom: 80px;
 }
 
-.fam-partners h2{
+.fam-clients h2{
     padding: 100px 0 20px 0;
-    width: 50%;
+    width: 60%;
+    font-size: 2em;
 }
 
-.fam-partners span a {
+.fam-clients span a {
     text-decoration: underline;
     font-size: 0.6em;
     padding-bottom: 80px;
 }
 
- .fam-partners aside {
+ .fam-clients aside {
     width: 25%;
 }
 
@@ -445,6 +454,7 @@ article.enterprise {
     padding-top: 50%;
     float: left;
     position: relative;
+    cursor: pointer;
 }
 
 .square div {
@@ -457,6 +467,10 @@ article.enterprise {
     justify-content: center;
 }
 
+.square div {
+    border: 10px solid transparent;
+}
+
 .square img {
     filter: invert(1);
     width: 70%;
@@ -464,7 +478,7 @@ article.enterprise {
     margin: auto;
 }
 
-.fam-partners .middle.clearfix{
+.fam-clients .middle.clearfix{
     float: left;
     width: 50%;
 }
@@ -612,10 +626,6 @@ footer {
 
 .foot-list a {
     color: #fff;
-}
-
-.foot-list a:hover {
-    text-decoration: underline;
 }
 
 /* foot down */
